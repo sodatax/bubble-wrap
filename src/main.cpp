@@ -38,6 +38,12 @@ int main(){
         }
     }
 
+    circles[0].set_scale(1.8);
+    circles[1].set_horizontal_scale(2);
+    circles[8].set_scale(.5);
+    circles[8].set_horizontal_scale(1.25);
+    circles[8].set_vertical_scale(1.5);
+
     while(true){
         bn::core::update();
 
